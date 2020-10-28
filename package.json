@@ -2,14 +2,14 @@
   "name": "@swingby-protocol/eslint-config",
   "version": "0.0.0-development",
   "description": "ESLint config for Swingby's projects",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/SwingbyProtocol/eslint-config.git"
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    ".eslintrc.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -32,6 +32,7 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
+    "@swingby-protocol/prettier-config": "^1.0.0",
     "eslint": "^7.12.1",
     "prettier": "^2.1.2",
     "semantic-release": "^17.2.1"
