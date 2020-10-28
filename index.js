@@ -14,5 +14,6 @@ module.exports = {
     "prettier/prettier": "error",
     "import/named": ["off"],
     "import/order": ["error", { "newlines-between": "always" }],
+    "import/no-anonymous-default-export": ["off"],
   },
 };
