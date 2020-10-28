@@ -1,0 +1,43 @@
+{
+  "name": "@swingby-protocol/eslint-config",
+  "version": "0.0.0-development",
+  "description": "ESLint config for Swingby's projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwingbyProtocol/eslint-config.git"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,json,md,mdx,html}'"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "prettier": "^2.1.2",
+    "semantic-release": "^17.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.12.1",
+    "prettier": "^2.1.2"
+  }
+}
