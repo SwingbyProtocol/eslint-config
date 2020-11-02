@@ -15,6 +15,11 @@ module.exports = {
     'import/named': ['off'],
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/no-anonymous-default-export': ['off'],
-    'import/no-internal-modules': ['error'],
+    'import/no-internal-modules': [
+      'error',
+      {
+        allow: ['next/*', '**/modules/*', '**/components/*'],
+      },
+    ],
   },
 };
