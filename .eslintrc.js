@@ -18,7 +18,7 @@ module.exports = {
     'import/no-internal-modules': [
       'error',
       {
-        allow: ['next/*', '**/modules/*', '**/components/*'],
+        allow: ['next/*', '**/modules/*', '**/components/*', '**/public/**/*'],
       },
     ],
   },
