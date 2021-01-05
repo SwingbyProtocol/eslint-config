@@ -20,6 +20,7 @@ module.exports = {
       {
         allow: [
           'next/*',
+          'next-auth/*',
           '**/modules/*',
           '**/components/*',
           '**/public/**/*',
