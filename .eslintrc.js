@@ -11,6 +11,7 @@ module.exports = {
   ],
   plugins: ['prettier'],
   rules: {
+    'object-shorthand': ['error', 'always'],
     'prettier/prettier': 'error',
     'import/named': ['off'],
     'import/order': ['error', { 'newlines-between': 'always' }],
