@@ -20,6 +20,7 @@ module.exports = {
       'error',
       {
         allow: [
+          'crypto-js/*',
           'next/*',
           'next-auth/*',
           '**/modules/*',
