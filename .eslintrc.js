@@ -29,6 +29,7 @@ module.exports = {
           '**/store/*',
           '**/scenes/*',
           '**/generated/**/*',
+          '**/generated/*',
         ],
       },
     ],
