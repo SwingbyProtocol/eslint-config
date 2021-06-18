@@ -1,6 +1,15 @@
+const isNextEslintPackageInstalled = (() => {
+  try {
+    return !!require.resolve('eslint-config-next');
+  } catch (e) {
+    console.error(e);
+    return false;
+  }
+})();
+
 module.exports = {
   extends: [
-    'react-app',
+    ...(isNextEslintPackageInstalled ? [] : ['react-app']),
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
@@ -8,6 +17,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/babel',
     'prettier/react',
+    ...(isNextEslintPackageInstalled ? ['next'] : []),
   ],
   plugins: ['prettier'],
   rules: {
