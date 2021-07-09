@@ -19,23 +19,23 @@
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,json,md,mdx,html}'"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.6.0",
-    "@typescript-eslint/parser": "^4.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
     "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^6.0.0",
-    "eslint-plugin-flowtype": "^5.2.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-flowtype": "^5.8.0",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
-    "@swingby-protocol/prettier-config": "^1.0.0",
-    "eslint": "^7.12.1",
-    "prettier": "^2.1.2",
-    "semantic-release": "^17.2.1"
+    "@swingby-protocol/prettier-config": "^1.0.2",
+    "eslint": "^7.30.0",
+    "prettier": "^2.3.2",
+    "semantic-release": "^17.4.4"
   },
   "peerDependencies": {
     "eslint": "^7.12.1",
