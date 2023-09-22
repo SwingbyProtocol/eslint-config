@@ -1,12 +1,12 @@
 module.exports = {
   extends: [
-    'react-app',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
     'prettier',
   ],
-  plugins: ['prettier'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     'object-shorthand': ['error', 'always'],
     'prettier/prettier': 'error',
@@ -30,5 +30,11 @@ module.exports = {
         ],
       },
     ],
+  },
+  settings: {
+    'import/ignore': 'node_modules',
+    react: {
+      version: 'detect',
+    },
   },
 };
